@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+
+.header{
+    background-color: rgba(90, 184, 170, 0.935);
+    width: 100%;
+    padding: 15px;
+}
+
+.bigCont{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+}
+
+.addBtn{
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.contBtn{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+
+.optionsHContainer{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+ 
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px rgba(240, 248, 255, 0.483);
+    width: 450px;
+    font-size: smaller;
+    color: aliceblue;
+    outline: none;
+    margin: 5px;
+}
+
+::placeholder{
+    color: rgba(240, 248, 255, 0.622);
+}
+
+.form-check{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+   background-color: transparent;
+}
+
+.form-check-input{
+    background-color: transparent;
+
+  }
+
+.addBtnTask{
+    background-color: whitesmoke;
+    color: rgb(1, 5, 9);
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 55px;
+    font-weight: 650;
+    font-size: xx-small;
+    box-shadow: 2px 2px grey;
+    padding: 5px;
+  }
+
+
+.material-symbols-outlined{
+font-size: medium;
+margin: 2px;
+  }
+
+.b{
+    margin-right: 2px;
+}
+
+
+.secondBig{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.anotherBig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+    min-width: 75%;
+    margin: 55px;
+    margin-bottom: 15px;
+    padding: 35px;
+}
+
+.titleTasks{
+    color: rgba(32, 154, 136, 0.935) ;
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    font-size: x-large;
+    margin: 5px;
+}
+
+.serchingBar{
+    height: 45px;
+    border: solid 2px rgba(90, 184, 170, 0.935);
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 50%;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.33);
+}
+
+
+
+.searchIn{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+    margin: 5px;
+    resize: vertical;
+}
+
+.inSbtn{
+    background-color: transparent;
+    border: none;
+    width: 25px;
+}
+
+.glass{
+  font-size: large;
+  color: grey;
+}
+
+.container{
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.357);
+    display: flex;
+    flex-wrap: wrap;
+}
+.selectedInfo{
+    color: rgb(16, 144, 93);
+}
+
+.contaiTaskList{
+    margin: 25px;
+    width: 100%;
+}
+
+.table-people{
+    color: grey;
+}
+
+
+.myCheck{
+    appearance: none;
+    border: 2px solid #888;
+}
+    
+
+.myCheck:checked{
+    background-color:rgb(16, 144, 93) ;
+    
+}
+
+
+.mycheck:disabled {
+    background-color: rgb(198, 198, 198);
+    background-image: none;
+} 
+
+.btnDelete{
+    background-color: transparent;
+    border: none;
+
+}
+
+.trash{
+    color: red;
+}
+
+
+
+

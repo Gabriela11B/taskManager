@@ -1,0 +1,75 @@
+<div class="bigFather container-fluid justify-content-center" >
+  <div class="header p-4 "  >
+    <div class="bigCont" >
+      <div class="contBtn">
+        <span class="addBtn mb-2"><span class="material-symbols-outlined">add</span>Nueva Tarea</span>
+        <div>
+          <form class="example-form" #myForm="ngForm">
+
+            <input class="input" matInput placeholder="Título*" name="title" [(ngModel)]="titleTask">
+          </form>
+        </div>
+      </div>
+
+      <div class="form-check">
+        <p class="comple m-2">Tarea Completada</p>
+        <input class="form-check-input m-2" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+      </div>
+
+      <div class="containerAdd">
+        <button class="addBtnTask m-2" type="button" (click)="submitForm(myForm)"><span class="material-symbols-outlined">add</span><b class="b">GUARDAR
+            TAREA</b></button>
+      </div>
+
+    </div>
+  </div>
+
+<div class="secondBig">
+  <div class="anotherBig">
+    <h2 class="titleTasks"><span class="material-symbols-outlined list">
+        checklist
+      </span>Lista de Tareas</h2>
+    <div class="serchingBar">
+      <input class="searchIn" matInput placeholder="Buscar..."><button class="inSbtn"><span
+          class="material-symbols-outlined glass">
+          search
+        </span>
+      </button>
+    </div>
+  </div>
+
+<br>
+<br>
+<br>
+
+  <div class="contaiTaskList">
+ <div class="d-flex justify-content-center">
+            <div class="container w-75  row p-5 ">
+            <table class="selectedInfo">
+                    <thead class="titles">
+                        <th>ID</th>
+                        <th>Mis Tareas</th>
+                        <th>Completada</th>
+                        <th>Borrar</th>
+                    </thead>
+                    
+                    <tbody class="table-people">
+                      
+                      <td>{{getData.idenTask}}</td>
+                      <td>${{dataM.titleTask}}</td>
+                      <input class="form-check-input m-2 myCheck" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+                      <td> <button class="btnDelete"><span class="material-symbols-outlined trash">delete</span></button></td>
+                
+                    </tbody>
+                </table>
+            </div> 
+        </div>
+
+  </div>
+</div>
+</div>
+
+
+
+
+<router-outlet></router-outlet>
